@@ -16,8 +16,10 @@
     <!-- <vueIF/> -->
   <!-- <vFor/> -->
   
-<home/>
-<classBinding/>
+<!-- <home/> -->
+<!-- <hpage/> -->
+<!-- <classBinding/> -->
+<hRef/>
   </div>
 </template>
 
@@ -30,9 +32,9 @@
 // import checkBox from './components/CheckBox.vue'
 // import vueIF from './components/vueIF.vue'
 // import vFor from './components/vFor.vue'
-import classBinding from './components/classBinding.vue'
-
-
+// import classBinding from './components/classBinding.vue'
+// import hpage from './components/hPage.vue'
+ import hRef from './components/hRef.vue'
 
 
 
@@ -45,14 +47,15 @@ export default {
   name: 'App',
   components: {
     // HelloWorld,
-    classBinding
+    // classBinding
     // vueIF,
     // home,
     //  Home1,
     // inputField,
     // checkBox,
     // vFor
-    
+    // hpage,
+     hRef
 }
 }
 </script>
