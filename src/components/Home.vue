@@ -20,10 +20,10 @@
 <h1>All DATA: {{getData().name}}</h1> -->
     <!-- <h1>All DATA: {{getData().email}}</h1>  it acces only email property by using .email from getData() function -->
     <!-- <h2>Child Compoents</h2> -->
-    <h1>HTML Binding</h1>
-    <h2>{{text}}</h2>
- <div v-html="tag"></div>
- <div v-html="tag2"></div>
+    <!-- <h1>HTML Binding</h1> -->
+       <!-- <h2>{{text}}</h2> -->
+ <!-- <div v-html="tag"></div> -->
+ <!-- <div v-html="tag2"></div> -->
 
     <!-- <ul>
         <li v-for="item in users" :key="item.name">  <userComponent :data="item" :getData="getData"/> </li>
@@ -44,14 +44,15 @@ export default {
         // userComponent
         // childComponent
     },
-    data(){
-        return {
-            text:"Zayn Malik", //during html text binding problem not occur it occur when during html tag 
-             tag:"<h1>Zayn Malik</h1>",
-             tag2:"<h1>ankita@talented.com </h1>"
+    //this data is for html binding
+    // data(){
+    //     return {
+    //         text:"Zayn Malik", //during html text binding problem not occur it occur when during html tag 
+    //          tag:"<h1>Zayn Malik</h1>",
+    //          tag2:"<h1>ankita@talented.com </h1>"
 
-        }
-    }
+    //     }
+    // }
 //     methods:{
 //   getData(name){
 //     alert(name)
@@ -139,7 +140,4 @@ export default {
 </script>
 
 <style scoped>
-h2 {
-    color: red;
-}
 </style>
